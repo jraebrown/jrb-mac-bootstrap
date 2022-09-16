@@ -1,6 +1,6 @@
 # Mac Bootstrap
 
-![mac-bootstrap screenshot][screenshot]
+![jrb-mac-bootstrap screenshot][screenshot]
 
 This script will provision a new machine running a fresh install of [macOS Catalina (10.15)][catalina]. It installs and configures the software, dotfiles, and general preferences I use for web development — primarily [Rails][rails], [React][react], and [Vue][vue]. The command line environment is based on [Fish][fish] (or [Zsh][zsh]), [Neovim][neovim], and [Tmux][tmux] running in [iTerm2][iterm2] or [Alacritty][alacritty].
 
@@ -15,7 +15,7 @@ Previous versions of Mac Bootstrap have been successfully tested on the followin
 * Sierra (10.12)
 * El Capitan (10.11)
 
-&#9657; **Looking for dotfiles only? Check out [My Dotfiles for macOS](http://jsua.co/dotfiles)**
+&#9657; **Looking for dotfiles only? Check out [My Dotfiles for macOS](http://jraebrown.com/dotfiles)**
 
 ## Prerequisites
 
@@ -34,12 +34,12 @@ Previous versions of Mac Bootstrap have been successfully tested on the followin
 To install with a one-liner, run this:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/joshukraine/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/bootstrap.log
+curl --remote-name https://raw.githubusercontent.com/jraebrown/jrb-mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/bootstrap.log
 ```
 
 Want to read through the script first?
 ```sh
-curl --remote-name https://raw.githubusercontent.com/joshukraine/mac-bootstrap/master/bootstrap
+curl --remote-name https://raw.githubusercontent.com/jraebrown/jrb-mac-bootstrap/master/bootstrap
 less bootstrap
 sh bootstrap 2>&1 | tee ~/bootstrap.log
 ```
@@ -103,7 +103,7 @@ No one else's development setup will ever be a perfect match for you. That said,
 5) Update the README with your own info, instructions/reminders so you don't forget what you did, and especially the correct install URL:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/boostrap.log
+curl --remote-name https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/jrb-mac-bootstrap/master/bootstrap && sh bootstrap 2>&1 | tee ~/boostrap.log
 ```
 
 6) Run the script on your machine and wait for the first error. 😇 Then fix, commit, push, and repeat.
@@ -137,29 +137,29 @@ curl --remote-name https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/mac-bo
 
 ## License
 
-Copyright &copy; 2020 Joshua Steele. [MIT License](https://github.com/joshukraine/mac-bootstrap/blob/master/LICENSE)
+Copyright &copy; 2020 Joshua Steele. [MIT License](https://github.com/jraebrown/jrb-mac-bootstrap/blob/master/LICENSE)
 
 [alacritty]: https://github.com/alacritty/alacritty
-[bootstrap]: https://github.com/joshukraine/mac-bootstrap/blob/master/bootstrap
+[bootstrap]: https://github.com/jraebrown/jrb-mac-bootstrap/blob/master/bootstrap
 [brew-bundle]: https://github.com/Homebrew/homebrew-bundle#usage
 [catalina]: https://www.apple.com/macos/catalina/
 [db-plus]: https://db.tt/Kmoif6SG
 [dictionaries]: https://extensions.openoffice.org/en/project/ukrainian-dictionary
-[dotfiles]: http://jsua.co/dotfiles
-[exe-scripts]: https://github.com/joshukraine/mac-bootstrap/tree/master/bin
+[dotfiles]: http://jraebrown.com/dotfiles
+[exe-scripts]: https://github.com/jraebrown/jrb-mac-bootstrap/tree/master/bin
 [fish]: http://fishshell.com/
 [iterm2]: https://www.iterm2.com/
 [lang-extensions]: http://extensions.services.openoffice.org/en/search?f[0]=field_project_tags%3A157
 [laptop]: https://github.com/thoughtbot/laptop
-[macos-defaults]: https://github.com/joshukraine/mac-bootstrap/blob/master/install/macos-defaults
+[macos-defaults]: https://github.com/jraebrown/jrb-mac-bootstrap/blob/master/install/macos-defaults
 [mths]: https://mths.be/macos
-[my-laptop]: https://github.com/joshukraine/mac-bootstrap/blob/master/install/laptop
+[my-laptop]: https://github.com/jraebrown/jrb-mac-bootstrap/blob/master/install/laptop
 [neovim]: https://neovim.io/
 [omz]: http://ohmyz.sh/
-[post-install-tasks]: https://github.com/joshukraine/dotfiles#post-install-tasks
+[post-install-tasks]: https://github.com/jraebrown/dotfiles#post-install-tasks
 [rails]: https://rubyonrails.org/
 [react]: https://reactjs.org/
-[screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/v1584124959/screenshots/mac-bootstrap-mar-2020_pmadrx.png
+[screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/v1584124959/screenshots/jrb-mac-bootstrap-mar-2020_pmadrx.png
 [stratus3d]: http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
 [tmux]: https://github.com/tmux/tmux/wiki
 [tmuxinator]: https://github.com/tmuxinator/tmuxinator
